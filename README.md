@@ -8,7 +8,7 @@ sudo apt update
 sudo apt-get install php-curl php-gmp -y
 ```
 
-### configuration
+### Configuration
 
 Edit the [settings.php](https://github.com/knkrth/cwallet/blob/master/settings.php) as per your config.
 
