@@ -1,0 +1,159 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+/* ------ Global ------ */
+
+/* body, .jumbotron{
+	background-color: #111 !important
+} */
+
+nav{
+	background-color: green;
+}
+
+.nav-link{
+	color: #ffffff;
+}
+
+.nav-link:hover{
+	color: whitesmoke
+}
+
+.pills{
+	background-color: green !important;
+	color: white !important;
+}
+
+.pills .active{
+	background-color: green !important;
+	border-bottom: 2px solid red;
+}
+
+/* .btn-danger{
+	background-color: #cc0000 !important
+}
+
+.btn-danger:hover{
+	background-color: crimson !important
+} */
+
+/* #coinName{
+	font-style: italic;
+}
+
+
+/* ----- Connection part ------ */
+#title{
+	width: 80%;
+	margin-top: 5%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* #connection, #createAccount{
+	width: 80%;
+	height: 20%;
+	margin-top: 12%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+input{
+	width: 50%;
+	height: 65px;
+	tex-align: center;
+	font-size: 30px;
+} */
+
+
+
+/* ----- Wallet Part ------ */
+
+/*
+#accountInfos, #balance, #send, #deco, #sendingError{
+	margin-top: 7%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#balance, #send, #deco, #sendingError{
+	width: 80%;
+}
+
+#accountInfos{
+	font-size: 95%;
+	margin-bottom: 10%;
+}
+*/
+
+/* The balance */
+
+/*
+#balance{
+	font-size: 105%;
+	margin-bottom: 7%;
+}
+#amount{
+	font-weight: bold;
+}
+*/
+
+/* The sending form */
+/*
+#send{
+	margin-top: 1%;
+	padding: 5px;
+}
+#send h3{
+	margin-top: 5px;
+}
+#send .formPart{
+	margin-top: 10px;
+}
+#send input{
+	width: 80%;
+}
+#send input[type="submit"]{
+	margin-top: 20px;
+}
+*/
+
+/* The error bloc */
+/*
+#sendingError{
+	background-color: #FFD2D2;
+	color: #D8000C;
+	padding: 5px;
+	border: 1px solid #FFD2D2;
+	border-radius: 2%;
+}
+#sendingError h5{
+	margin-top: 3px;
+	margin-bottom: 1px;
+}
+*/
+
+/* The deconnection button */
+/*
+#deco{
+	margin-top: 120px;
+}
+#deco input{
+	width: 50%;
+}
+
+*/
+
+.h2.message {
+  text-align: center;
+}
+
+.dont-break-out {
+
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-word;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-word;
+
+}
