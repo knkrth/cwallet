@@ -12,6 +12,8 @@ sudo apt-get install php-curl php-gmp -y
 
 Edit the [settings.php](https://github.com/knkrth/cwallet/blob/master/settings.php) as per your config.
 
+You have to change the prefixes value of your coin here [AltcoinsECDSA.php#L54](https://github.com/knkrth/cwallet/blob/master/AltcoinsECDSA/AltcoinsECDSA.php#L54)
+
 ### Usage
 
 This wallet uses a simple JSON RPC command to interact with the daemon. You can also warp it on webview for android & ios it's really easy!
